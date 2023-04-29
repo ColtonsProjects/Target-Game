@@ -1,0 +1,117 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #16213e 0%, #3a6073 100%);
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  
+  .login h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+  }
+  
+  .login label {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .login input[type="text"],
+  .login input[type="password"] {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .login input[type="text"]:focus,
+  .login input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 10px #fff;
+  }
+  
+  .login button[type="submit"] {
+    background-color: #fff;
+    color: #16213e;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .login button[type="submit"]:hover {
+    background-color: #16213e;
+    color: #fff;
+  }
+
+  .login h2 {
+    margin-bottom: 1rem;
+    margin-top: 3rem; 
+    font-size: 2.4rem;
+    font-family: 'Open Sans', sans-serif; 
+  }
+
+  .login form {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .login form button[type="submit"] {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .new-user-button {
+    background: none;
+    border: none;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1em; /* Adjust the value to the desired size */
+  }  
+  
+  .new-user-button:hover {
+    text-decoration: none;
+  }
+  
+  .email-input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  
+  

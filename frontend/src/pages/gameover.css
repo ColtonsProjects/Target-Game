@@ -1,0 +1,39 @@
+.game-over-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.game-over-title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.game-over-score {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+.game-over-play-again {
+  font-size: 2rem;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.game-over-play-again:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.game-over-container {
+  background-color: #857676dd;
+}
